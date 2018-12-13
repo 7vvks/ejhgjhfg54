@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Lumiz ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play | One Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`2play | One Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
