@@ -352,5 +352,8 @@ client.on('ready', () => {
 client.user.setGame(`2play | One Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
+client.on('ready', () => {
+    client.channels.get("522800949518008350").join(); 
+    });
 
 client.login(process.env.BOT_TOKEN);
